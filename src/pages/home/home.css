@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+}
+.leftBar{
+    flex:3;
+}
+.Feed{
+    flex:3;
+}
+.rightBar{
+    flex:4;
+}
+
+ul{
+    list-style: none   ;
+}

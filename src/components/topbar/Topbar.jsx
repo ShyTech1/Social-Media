@@ -4,7 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import "1.jpg" from "./public/assetst/person";
+
 
 export default function Topbar() {
   return (
@@ -12,19 +12,20 @@ export default function Topbar() {
 
         <div className="topBarLeft">
             <span className="appLogo"> <GroupsIcon /></span>
-            <span className="title">SocialMedia</span>
+            <span className="appTitle">SocialMedia</span>
         </div>
 
-        <div className="topBarCenter"></div>
+        <div className="topBarCenter">
             <div className="searchBox">
-                <div className="searchBoxIcon"> <SearchIcon /></div>
-                <input placeholder="What's on your mind?" className="searchinput" />
+                <SearchIcon className="searchIcon"/>
+                <input placeholder="What's on your mind?" className="searchInput" />
             </div>
+        </div>
 
         <div className="topBarRight">
-            <div className="links">
+            <div className="topBarlinks">
                 <span className="homePageLink">Home page</span>
-                <span className="timelineLinl">Timeline</span>
+                <span className="timelineLink">Timeline</span>
             </div>
 
             <div className="topBarIcons">
@@ -46,8 +47,8 @@ export default function Topbar() {
                     </div>
                 </div>
             </div>
-            <div className="topBarprofilepic">
-
+            <div className="topBarProfilePic">
+                <img className="profilePic" src="/assets/person/1.jpg" alt="image" />
             </div>
         </div>
 

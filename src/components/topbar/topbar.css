@@ -1,7 +1,128 @@
+*{
+    margin:0;
+}
 body{
     background:rgb(240, 197, 162);
 }
 .appLogo{
+    margin:10px;
+    cursor: pointer;
+}
 
-    margin:5px;
+.appTitle{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.searchBox{
+    width: 100%;
+    height: 30px;
+    background:#fff;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.searchInput{
+    border: none;
+    width: 93%;
+    cursor: pointer;
+    height: 80%;
+    margin-left: 5px;
+}
+.searchInput:focus{
+    outline: none;
+}
+
+.searchIcon{
+    font-size: 25px !important;
+    margin-left: 5px ;
+    cursor: pointer;
+}
+
+.topBarContainer{
+    background: rgb(28, 96, 243);
+    height: 40px;
+    display:flex;
+    position:sticky;
+    top:0;
+    padding-top:10px;
+}
+.topBarLeft{
+    flex:3;
+    display:flex;
+    align-items: center;
+   
+}
+.topBarCenter{
+    flex:5;
+}
+.topBarRight{
+    flex:4;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    position:relative;
+}
+.topBarlinks{
+    display:flex;
+    justify-content: center;
+    
+}
+.homePageLink, .timelineLink{
+    color: #fff;
+    cursor: pointer;
+    margin-left: 9px;
+    font-size: 14px;
+
+}
+.topBarIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    color: #fff;
+
+}
+
+.iconItemFriends{
+    position:relative;
+    cursor: pointer;
+}
+
+.iconItemChat{
+    position:relative;
+    cursor: pointer;
+}
+.iconItemNotification{
+    position:relative;
+    cursor: pointer;
+}
+.icoBbadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    top:-5px;
+    right:-5px;
+
+
+}
+
+.profilePic{
+    height: 33px;
+    width: 33px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+
+
 }
