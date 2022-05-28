@@ -1,5 +1,5 @@
 import Topbar from "../../components/topbar/Topbar";
-import LeftBar from "../../components/leftbar/LeftBar";
+import LeftbarItemList from "../../components/leftbar/LeftbarItemList";
 import Feed from "../../components/feed/Feed";
 import RightBar from "../../components/rightbar/RightBar";
 import "./home.css"
@@ -10,7 +10,7 @@ function Home() {
         <>
            <Topbar />
            <div className="container">
-           <LeftBar />
+           <LeftbarItemList /> 
            <Feed />
            <RightBar />
            </div>

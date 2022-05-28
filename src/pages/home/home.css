@@ -3,15 +3,14 @@ body{
 }
 .container{
     display: flex;
-}
-.leftBar{
-    flex:3;
+
 }
 .Feed{
-    flex:3;
+    flex:4;
+
 }
 .rightBar{
-    flex:4;
+    flex:2;
 }
 
 ul{

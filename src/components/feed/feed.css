@@ -1,0 +1,18 @@
+.Feed{
+    border: 1px solid;
+}
+
+.share{
+    border: 1px solid;  
+    height: 90px;
+    display:flex;
+    align-items: center;
+}
+.shareprofilePic{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+    margin:10px;
+}

@@ -1,0 +1,18 @@
+.LeftbarItem{
+    flex:3;
+    height: calc(100vh - 50px);
+    
+
+}
+.showmore{
+    margin:20px;
+    background: rgb(237, 204, 204);
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.showmore:hover{
+    box-shadow: 0 0 2px 0 black;
+
+}

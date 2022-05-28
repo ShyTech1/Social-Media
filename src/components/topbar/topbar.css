@@ -113,8 +113,6 @@ body{
     font-size: 12px;
     top:-5px;
     right:-5px;
-
-
 }
 
 .profilePic{
@@ -123,6 +121,4 @@ body{
     cursor: pointer;
     border-radius: 50%;
     object-fit: cover;
-
-
 }
