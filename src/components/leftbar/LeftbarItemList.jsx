@@ -16,7 +16,8 @@ function LeftbarItemList(){
     return(
         <div className='LeftbarItem'>
             <LeftbarItem />
-                        <button className='showmore'>Show More</button>
+            <button className='showmore'>Show More</button>
+            <hr className='separator'/>
         </div>
     )
 }

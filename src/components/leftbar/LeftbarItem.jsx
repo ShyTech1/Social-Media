@@ -9,7 +9,7 @@ const LeftbarItem = ( ) => {
       
                     <li className='sidebarListItem'>
                         {item.sidebarIcon}
-                        {item.itemtext }
+                       <span className='sidebarListItemText'>{item.itemtext }</span> 
                     </li>
                
         )} )

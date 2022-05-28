@@ -1,7 +1,6 @@
 .LeftbarItem{
     flex:3;
     height: calc(100vh - 50px);
-    
 
 }
 .showmore{
@@ -15,4 +14,11 @@
 .showmore:hover{
     box-shadow: 0 0 2px 0 black;
 
+}
+.sidebarListItemText{
+    margin-left: 15px;
+}
+.separator{
+    width: 80%;
+    transform: translateX(30px);
 }

@@ -9,8 +9,9 @@ export default function LeftBar() {
       <div className="leftBar">
         <div className="barwrapper">
           <ul className='sidebarList'>
-            <LeftbarItemList />
+            <LeftbarItemList className="LeftbarItemList"/>
           </ul>
+
         </div>
       </div>
   )

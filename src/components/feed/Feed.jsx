@@ -6,21 +6,21 @@ import SentimentVerySatisfiedIcon from '@mui/icons-material/SentimentVerySatisfi
 
 export default function Feed() {
   return (
-    <div className="Feed">
-      <div className="shareContainer">
+    <>
+      <div className="Feed">
         <div className="share">
-          <img src="/assets/person/1.jpg" alt="" className="shareprofilePic" />
-          <input type="text" placeholder="Wha't on your mind Dude?" className="shareInput"/>
+          <img src="" alt="profilepic" />
+          <input type="text" placeholder="What on your mind ?" />
         </div>
-        <div className="shareoptions">
-          <ul className="shareItemslist">
-            <li className="shareitem"><PhotoLibraryIcon/> Photos or videos</li>
-            <li className="shareitem"><LabelIcon/> Tag</li>
-            <li className="shareitem"><LocationOnIcon/> Location</li>
-            <li className="shareitem"><SentimentVerySatisfiedIcon/>Feelings</li>
+          <ul className="shareItems">
+            <li> <PhotoLibraryIcon />Photos and Videos</li>
+            <li><LabelIcon /> Tag</li>
+            <li><LocationOnIcon />Location</li>
+            <li><SentimentVerySatisfiedIcon />Feelings</li>
+          <button > Share</button>
+
           </ul>
-        </div>
       </div>
-    </div>
+    </>
   )
 }
