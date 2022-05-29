@@ -48,7 +48,8 @@ export default function Topbar() {
                 </div>
             </div>
             <div className="topBarProfilePic">
-                <img className="profilePic" src="/assets/person/1.jpg" alt="image" />
+                <img className="profilePic" src="../assets/person/1.jpg" alt="image" />
+                <img className="profilePic" src="./assets/person/2.jpg" alt="image" />
             </div>
         </div>
 

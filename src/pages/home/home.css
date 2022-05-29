@@ -1,14 +1,19 @@
 body{
     background-color: antiquewhite;
 }
+
 .container{
     display: flex;
-
 }
+
+.leftBar{
+    flex:1.5;
+}
+
 .Feed{
     flex:4;
-
 }
+
 .rightBar{
     flex:2;
 }
