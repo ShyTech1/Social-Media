@@ -6,10 +6,10 @@ import "./frienditem.css"
 const FriendItem = () => {
   const arrayNames = friendsList.map(item =>{
     return(
-      <div className="friendItem">
+      <li className="friendItem">
         <img src={item.profilePic} alt={item.profilePic} className="friendItemPic" />
         <span className='friendItemText'>{item.name}</span>
-      </div>
+      </li>
     )
   })
   return (

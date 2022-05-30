@@ -1,5 +1,7 @@
 body{
     background-color: antiquewhite;
+    height: 100vh;
+    overflow: scroll;
 }
 
 .container{
@@ -7,17 +9,28 @@ body{
 }
 
 .leftBar{
-    flex:1.5;
+    flex:2;
+    overflow: scroll;
 }
 
-.Feed{
-    flex:4;
+.Sharecontainer{
+    flex:5;
 }
 
 .rightBar{
-    flex:2;
+    flex:3;
 }
 
 ul{
-    list-style: none   ;
+    list-style: none ;
+}
+
+.leftBarHr{
+    width: 80%;
+    align-self: center;
+    margin:10px;
+}
+
+.leftBarBtn{
+    margin-left: calc(50% - 100px);
 }

@@ -1,4 +1,9 @@
-.button{
+button{
     border: none;
-    background: gold;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+
 }

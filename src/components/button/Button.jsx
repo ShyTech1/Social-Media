@@ -4,7 +4,7 @@ import "./button.css";
 export default function Button(props) {
   return (
     <div>
-        <button className='button'> {props.text} {props.name} </button>
+        <button className={props.className}> {props.text} {props.name} </button>
     </div>
   )
 }
