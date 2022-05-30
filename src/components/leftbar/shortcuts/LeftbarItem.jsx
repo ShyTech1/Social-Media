@@ -13,14 +13,9 @@ const LeftbarItem = ( ) => {
         )});
         
         return( 
-        <div> 
-            <div className='LeftbarItem'>
+        <div className='LeftbarItem'>
             {arraynames}
-
-            <hr className='separator'/>
         </div>  
- 
-        </div>
             );
     }
 

@@ -8,8 +8,7 @@ const FriendItem = () => {
     return(
       <div className="friendItem">
         <img src={item.profilePic} alt={item.profilePic} className="friendItemPic" />
-        <span className=''>{item.name}</span>
-        
+        <span className='friendItemText'>{item.name}</span>
       </div>
     )
   })

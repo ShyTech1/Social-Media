@@ -9,13 +9,13 @@ import Button from "../../components/button/Button"
 function Home() {
     return ( 
         <>
-         <Topbar />
+         <Topbar className="topBar"/>
          <div className="container">
          <div className="leftBar">
             <LeftbarItem /> 
-            <FriendItem />
             <Button text="Show More" />
-    
+            <hr />
+            <FriendItem />
 
          </div>   
             <Feed />
