@@ -1,24 +1,50 @@
 .Sharecontainer{
     width: 200px; 
     height: 140px;
-    border: 2px dotted salmon;
     margin:30px;
     padding-bottom: 30px;
+    position:relative;
+    box-shadow: 
+    .3px .3px 7px 1px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
 
 }
+.shareInput{
+    border: none;    
+    cursor: pointer;
+}
+.shareInput:focus{
+    outline: none;
+}
 
-.share{
+.shareInputContainer{
 
     height: 70px;
     display:flex;
     align-items: center; 
 }
 
-.shareItems{
+.shareItemsUl{
     height: 100px;
     display:flex;
     align-items: center;
+    justify-content: flex-start;
+
 }
+.shareItemsLi:nth-of-type(4){
+    margin-right: 20px;
+    
+}
+.shareItemsLi{
+ 
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
 .shareProfilePic{
     height: 50px;
     width: 50px;
@@ -27,6 +53,36 @@
     object-fit: cover;
     margin:10px;
 }
+.shareitemLiText{
+    margin-left: 5px;
+    font-weight: 500;
+    margin-right:15px;
+}
 .shareBtn{
-    background: greenyellow ;
+    background: green ;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    width:90px;
+    height:40px;
+    font-weight: bold;;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+.PhotoLibraryIcon{
+    color: tomato;
+}
+.LabelIcon{
+    color: blue;
+}
+.LocationOnIcon{
+    color:green;
+}
+.SentimentVerySatisfiedIcon{
+    color:goldenrod;
+}
+.shareHr{
+    width: 90%;
+    place-self: center;
 }

@@ -1,5 +1,8 @@
+.topBarContainer{
+    z-index: 1;
+}
 body{
-    background-color: antiquewhite;
+    background-color: #fff;
     height: 100vh;
     overflow: scroll;
 }

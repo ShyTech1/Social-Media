@@ -9,19 +9,19 @@ export default function Share() {
   return (
 
       <div className="Sharecontainer">
-        <div className="share">
+        <div className="shareInputContainer">
           <img className="shareProfilePic" src="../assets/person/1.jpg" alt="profilepic" />
-          <input type="text" placeholder="What on your mind ?" />
-          
+          <input className="shareInput" type="text" placeholder="What on your mind ?" />
         </div>
-          <ul className="shareItems">
-            <li> <PhotoLibraryIcon />Photos and Videos</li>
-            <li><LabelIcon /> Tag</li>
-            <li><LocationOnIcon />Location</li>
-            <li><SentimentVerySatisfiedIcon />Feelings</li>
-           
+        <hr className="shareHr"/>
+          <ul className="shareItemsUl">
+            <li className="shareItemsLi"> <PhotoLibraryIcon className="PhotoLibraryIcon"/> <span className="shareitemLiText">Photos\Videos</span> </li>
+            <li className="shareItemsLi"><LabelIcon className="LabelIcon"/><span className="shareitemLiText">Tag</span>  </li>
+            <li className="shareItemsLi"><LocationOnIcon className="LocationOnIcon"/><span className="shareitemLiText">Location</span> </li>
+            <li className="shareItemsLi"><SentimentVerySatisfiedIcon className="SentimentVerySatisfiedIcon"/><span className="shareitemLiText">Feelings</span> </li>
+           <Button className="shareBtn" text="Share" />
           </ul>
-          <Button className="shareBtn" text="Share" />
+          
       </div>
 
   )
