@@ -1,39 +1,53 @@
-.topBarContainer{
-    z-index: 1;
-}
-body{
+body
+{
     background-color: #fff;
     height: 100vh;
     overflow: scroll;
 }
+.topBarContainer{
+    z-index: 1;
+}
 
-.container{
+.bodyContainer
+{
     display: flex;
 }
 
-.leftBar{
+.leftBarContainer
+{
     flex:2;
     overflow: scroll;
+    height: 100vh;
 }
 
-.Sharecontainer{
+.feedContainer
+{
     flex:5;
 }
 
-.rightBar{
+.rightBar
+{
     flex:3;
 }
 
-ul{
+.example::-webkit-scrollbar 
+{
+    display: none;
+}
+  
+ul
+{
     list-style: none ;
 }
 
-.leftBarHr{
+.leftBarHr
+{
     width: 80%;
     align-self: center;
     margin:10px;
 }
 
-.leftBarBtn{
+.leftBarBtn
+{
     margin-left: calc(50% - 100px);
 }

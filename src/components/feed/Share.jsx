@@ -8,7 +8,7 @@ import Button from "../button/Button";
 export default function Share() {
   return (
 
-      <div className="Sharecontainer">
+      <div className="ShareContainer">
         <div className="shareInputContainer">
           <img className="shareProfilePic" src="../assets/person/1.jpg" alt="profilepic" />
           <input className="shareInput" type="text" placeholder="What on your mind ?" />
