@@ -1,3 +1,9 @@
-.feedContainer{
+.feedContainer
+{
     display: flex;
+    flex-direction: column;
+}
+.postInFeed
+{
+    margin-left: 30px;
 }
