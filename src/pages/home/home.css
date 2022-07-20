@@ -25,9 +25,9 @@ body
     flex:5;
 }
 
-.rightBar
+.rightBarContainer
 {
-    flex:3;
+    flex : 3;
 }
 
 .example::-webkit-scrollbar 
