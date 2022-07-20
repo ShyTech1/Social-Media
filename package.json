@@ -1,7 +1,7 @@
 {
   "name": "socail-media",
   "version": "0.1.0",
-  "homepage": "https://ShyTech1.github.io/Social-Media",
+  "homepage": "http://ShyTech1.github.io/Social-Media",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
