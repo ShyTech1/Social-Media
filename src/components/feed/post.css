@@ -1,7 +1,51 @@
+.postContainer
+{
+    padding: 10px 0 10px 0;
+    min-height: 100px;
+    height: fit-content;
+    width: 100%;
+}
 .userProfilePic
 {
     border-radius: 50%;
     margin:5px 15px;
     width: 50px;
     height: 50px;
+}
+.friendDetails
+{
+    display: flex;
+    font-size: 500;
+}
+.postDate
+{
+    display:block;
+}
+.postUserNameContainer
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.postContent
+{
+    border: 2px bold;
+    background-color: rgb(52, 195, 45);
+    height: fit-content;
+    padding: 5px 0 5px 0;
+    
+}
+.postReactions
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.postReactions > span 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    cursor: pointer;
+
 }
