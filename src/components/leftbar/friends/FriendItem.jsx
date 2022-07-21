@@ -1,6 +1,7 @@
 import React from 'react';
 import { friendsList } from './frindsList';
-import "./frienditem.css"
+import "./frienditem.css";
+
 
 
 const FriendItem = () => {

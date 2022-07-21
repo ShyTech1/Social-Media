@@ -44,5 +44,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShyTech1/Social-Media.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShyTech1/Social-Media/issues"
   }
 }
